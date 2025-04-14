@@ -1,8 +1,7 @@
-import React, { useContext } from 'react';
-import { CategoryContext } from '../context/category';
+import React from 'react';
+// import { CategoryContext } from '../context/category';
 
-function CategoryFilter({ categories }) {
-	const {selectedCategory, setSelectedCategory} = useContext(CategoryContext)
+function CategoryFilter({ categories, selectedCategory, setSelectedCategory }) {
 	return (
 		<div className="categories">
 			<h5>Category filters</h5>
